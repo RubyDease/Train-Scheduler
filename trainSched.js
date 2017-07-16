@@ -131,7 +131,9 @@ $(document).ready(function() {
           trainFreq + "</td><td>" + nextTrain + "</td><td>" + tMinutesTilTrain);
 
         }); //closing database function
-    
+    //};//closing train table function
+
+
 
 }); //end of document.ready 
 
