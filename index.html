@@ -27,7 +27,7 @@
  
 
 
- <script src="https://www.gstatic.com/firebasejs/4.1.3/firebase.js"></script><
+ 
  <!-- add moment JS file -->
  <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
 
@@ -46,16 +46,16 @@
     <thead>
         <tr>
           <th>電車 - Train Name</th>
-          <th>方面 - Destination</th>
+          <th>方面 - Destination (city)</th>
           <th>最終電車 - Frequency (min)</th>
-          <th>始発 - Next Arrival</th>
+          <th>始発 - Next Arrival (min)</th>
           <th>終発 -Minutes Away</th>
         </tr>
       </thead>
       <tbody>
         <tr>
           <!-- train 1 -->
-          <td scope="row">1</td>
+          <td scope="row"></td>
           <td></td>
           <td></td>
           <td></td>
@@ -63,7 +63,7 @@
         </tr>
         <tr>
           <!-- Train 2 -->
-          <td scope="row">2</td>
+          <td scope="row"></td>
           <td></td>
           <td></td>
           <td></td>
@@ -71,7 +71,7 @@
         </tr>
         <tr>
           <!-- Train 3 -->
-          <td scope="row">3</td>
+          <td scope="row"></td>
           <td></td>
           <td></td>
           <td></td>
@@ -79,7 +79,7 @@
         </tr>
         <tr>
           <!-- Train 4-->
-          <td scope="row">4</td>
+          <td scope="row"></td>
           <td></td>
           <td></td>
           <td></td>
@@ -87,7 +87,7 @@
         </tr>
         <tr>
           <!-- Train 5-->
-          <td scope="row">5</td>
+          <td scope="row"></td>
           <td></td>
           <td></td>
           <td></td>
@@ -120,7 +120,7 @@
                
                <div class="form-group">  
 
-                 <label for="first-train-time">最終電車 - Train Time ( HH:mm)</label><br/>
+                 <label for="first-train-time">最終電車 - Train Time (HH:mm)</label><br/>
                  <input type="text" classe="form-control" id="first-train-time-input" /><br />
               </div>
 
@@ -141,7 +141,8 @@
 
 </div>
 </div>
+  <script src="https://www.gstatic.com/firebasejs/4.1.3/firebase.js"></script>
+  <script type="text/javascript" language='javascript' src="assets/js/trainSched.js"></script>
 
-  <script type="text/javascript" language='javascript' href="assets/js/trainSched.js"></script>
 </body>
 </html>
